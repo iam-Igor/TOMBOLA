@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOMBOLA!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">TOMBOLA!</h1>
+
+      <div id="maintable"></div>
+      <div class="buttondiv">
+        <button id="get-number">ESTRAI</button>
+      </div>
+      <div id="extractions">
+        <h1 id="numbersExtracted">
+          Numero estratto:<span id="numbers"></span>
+        </h1>
+
+        <div>
+          <button id="restart" onClick="window.location.reload();">
+            RICOMINCIA
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
