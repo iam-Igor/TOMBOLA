@@ -40,12 +40,34 @@ body {
   border-radius: 29px;
 }
 
+#card-sections div {
+  display: inline-block;
+  width: 14%;
+  height: 33px;
+  padding-top: 5px;
+  border-radius: 29px;
+}
+
+#card-sections {
+  width: 286px;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 40px;
+  border: 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+  display: none;
+}
+
 #maintable {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid;
   border-radius: 25px;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 #get-number {
@@ -75,7 +97,7 @@ body {
 .buttondiv {
   height: 50px;
   width: 50px;
-  margin: 0 auto;
+  margin-left: 15px;
 }
 
 .colorBackg {
@@ -96,9 +118,9 @@ body {
 }
 
 #title {
-  text-align: center;
+  margin-left: 15px;
   font-family: "Anton", sans-serif;
-  margin: 0;
+  margin-top: 0px;
   letter-spacing: 2px;
 }
 
@@ -113,4 +135,10 @@ body {
 
 #extractions {
   margin-left: 15px;
+}
+
+#form {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
 }
